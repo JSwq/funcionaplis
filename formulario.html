@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<style>
+    .pregunta{
+        width: 80%;
+        display: inline-block;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .link{
+        text-decoration: none;
+    }
+</style>
+<body>
+    <div class="header">
+        <header class="p-3 mb-3 border-bottom">
+            <div class="container">
+              <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                  <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+        
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                  <li><a href="#" class="nav-link px-2 link-secondary">Ayuda</a></li>
+                  <li><a href="#" class="nav-link px-2 link-dark">Soporte</a></li>
+                  <li><a href="#" class="nav-link px-2 link-dark">Comunidad</a></li>
+                  <li><a href="#" class="nav-link px-2 link-dark"></a></li>
+                </ul>
+        
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                  <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
+                </form>
+        
+                <div class="dropdown text-end">
+                  <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                  </a>
+                  <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </header>
+    </div>
+    <div class="titulo">
+        <div class="px-4 pt-5 my-5 text-center border-bottom">
+            <h1 class="display-4 fw-bold">Encuesta de filtro </h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Con fines de estudio de mercado hemos decidido dividir las participaciones en esta encuenta por quienes las realice, pretendemos que sea temporal e así reducir el tiempo de respuesta aún más.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Soy usuario</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Soy gerente/docente</button>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="form">
+        <div class="center">
+            <div class="pregunta">
+                <div class="p-4 border rounded-3 mb-4">
+                    <h6 _msthash="1532947" _msttexthash="1263431">¿Alguien de tu casa se ha enfermado de <a href="" class="link">COVID-19</a> los ultimos 8 meses?</h6>
+                    <hr class="mb-4">
+                    
+                    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-white border rounded-5 shadow-sm" id="pillNav2" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5 active" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" _msthash="115401" _msttexthash="59059" tabindex="-1">Nadie</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" tabindex="-1" _msthash="181571" _msttexthash="76245">Sí, hace como un mes</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true" _msthash="181766" _msttexthash="114712">Sí, aún presenta sintomas</button>
+                      </li>
+                    </ul>
+                  </div>
+            </div>    
+        </div>
+        <div class="center">
+            <div class="pregunta">
+                <div class="p-4 border rounded-3 mb-4">
+                    <h6 _msthash="1532947" _msttexthash="1263431">¿Has presentado los ultimos 6 meses sintomas como: perdida de olfato y gusto, friebe, tos?</h6>
+                    <hr class="mb-4">
+                    
+                    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-white border rounded-5 shadow-sm" id="pillNav2" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" _msthash="115401" _msttexthash="59059" tabindex="-1">No he tenido ningún sintoma</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5 active" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" tabindex="-1" _msthash="181571" _msttexthash="76245">Sí, hace más de una semana</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true" _msthash="181766" _msttexthash="114712">Sí y aún mantengo la enfermedad</button>
+                      </li>
+                    </ul>
+                  </div>
+            </div>    
+        </div>
+        <div class="center">
+            <div class="pregunta">
+                <div class="p-4 border rounded-3 mb-4">
+                    <h6 _msthash="1532947" _msttexthash="1263431">¿Cuántas dosis de vacuna tienes aplicadas?</h6>
+                    <hr class="mb-4">
+                    
+                    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-white border rounded-5 shadow-sm" id="pillNav2" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" _msthash="115401" _msttexthash="59059" tabindex="-1">Ninguna</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" tabindex="-1" _msthash="181571" _msttexthash="76245">Una dosís</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link rounded-5 active" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true" _msthash="181766" _msttexthash="114712">Dos o tres dosis</button>
+                      </li>
+                    </ul>
+                  </div>
+            </div>    
+        </div>
+        
+    </div>
+</body>
+</html>
